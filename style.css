@@ -268,7 +268,8 @@ font-weight: bolder;
   }
 
   .section2content{
-	  padding: 30px;
+    padding: 30px;
+    padding-bottom: 20px;
   }
 
   .section2sponsership{
@@ -282,8 +283,8 @@ font-weight: bolder;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-	text-align: center;
-	font-size: 1.1em;
+  text-align: center;
+	font-size: 1em;
 	font-weight: bold;
 	color: #585858;
 }
@@ -311,6 +312,7 @@ font-weight: bolder;
 	align-items: center;
   }
 
+
   .sec3content{
     padding: 10px;
   }
@@ -325,7 +327,13 @@ font-weight: bolder;
 	display: flex;
 	flex-direction: column;
 }
-.sec3col:hover{
+
+.sec3col a{
+  color: #33353d;
+}
+
+
+.sec3col a:hover{
 	color: tomato;
 }
 
@@ -337,7 +345,8 @@ font-weight: bolder;
 }
 
 .sec3col p {
-  font-size: 0.8em;
+  font-size: 0.9em;
+  font-weight: bold;
   text-align: center;
   margin-top: 0;
   margin-bottom: 10px
@@ -354,7 +363,8 @@ font-weight: bolder;
 
 .eventslist{
 	display: flex;
-	flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-weight: bold;
 	justify-content: space-evenly;
 	
 }
@@ -384,7 +394,7 @@ font-weight: bolder;
 }
 
 .sec4content{
-	padding: 20px;
+  padding: 10px;
 }
 
 .brandsrow{
