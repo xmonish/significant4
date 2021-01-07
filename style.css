@@ -65,7 +65,7 @@
 	  font-weight: lighter;
 	  font-style: normal;
 	  font-family: sans-serif;
-	  text-transform: uppercase;
+	  /* text-transform: uppercase; */
 	  font-family: 'Poppins', sans-serif;
 	  font-size: 3em;
 }
