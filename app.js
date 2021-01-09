@@ -468,15 +468,22 @@ var mySwiper = new Swiper(".swiper-container", {
 /* cd *//* cd */
 
 // Hide the contents until the burger menu finishes sliding in from the left
-var content = document.getElementsByTagName("main")[0];
-content.style.visibility = "hidden";
+// var content = document.getElementsByTagName("main")[0];
+// content.style.visibility = "hidden";
 
-var sidebar = document.getElementsByClassName("sidebar")[0];
+// var sidebar = document.getElementsByClassName("sidebar")[0];
 
-var lowerLayerBurger = document.getElementsByClassName("menu-toggler__line")[2];
-lowerLayerBurger.addEventListener("animationend", function(evt) {
-  content.style.visibility = "visible";
-});
+// var lowerLayerBurger = document.getElementsByClassName("menu-toggler__line")[2];
+// lowerLayerBurger.addEventListener("animationend", function(evt) {
+//   content.style.visibility = "visible";
+// });
+
+
+////////////////////
+
+// document.getElementsByClassName("menu").addEventListener("click", ()=>{
+//     console.log("hre")
+// } )
 
 // Add click listeners to the menu on the sidebar
 document.getElementsByTagName("ul")[0].addEventListener("click", function(evt) {
@@ -523,3 +530,13 @@ function sendEmail() {
 		message => alert("mail sent successfully")
 	);
 }
+
+
+var here = document.getElementsByClassName("viewmore");
+
+function my() {
+    console.log("hello");
+    var element = document.getElementById("tar");
+    console.log(element);
+   element.classList.toggle("viewmorecontent");
+ }
