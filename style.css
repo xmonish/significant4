@@ -142,7 +142,7 @@ font-weight: bolder;
 
 .swiper-container {
   margin-bottom: 30px;
-	margin: 10%;
+	/* margin: 10%; */
 	background: #ececec;
     width: 90%;
     height: 100vh;
@@ -796,8 +796,8 @@ body {
 
 .form-control, textarea {
   max-width: 400px;
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: black;
   letter-spacing: 1px;
 }
 

@@ -522,9 +522,9 @@ function sendEmail() {
 	Host: "smtp.gmail.com",
 	Username : "<sender’s email address>",
 	Password : "<email password>",
-	To : '<recipient’s email address>',
+	To : 'monish@mail.com',
 	From : "<sender’s email address>",
-	Subject : "You got an Email from Significant Sport Site",
+	Subject : "You've got an Email from SignificantSports Site",
 	Body : `Name: ${x} \n Email: ${y} \n ${z}`,
 	}).then(
 		message => alert("mail sent successfully")
