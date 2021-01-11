@@ -90,7 +90,7 @@
 .navbarr{
 	display: flex;
 	justify-content: stretch;
-	position: sticky;
+	/* position: sticky; */
 	top: 0;
 	color: #000000;
 	background: rgb(255, 255, 255);
@@ -412,7 +412,7 @@ font-weight: bolder;
 }
 
 .brandsrow .brandcards img{
-	height: 100px;
+  height: 100px;
 }
 
 .sec5{
