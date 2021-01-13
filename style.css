@@ -99,6 +99,7 @@
 	z-index: 100;
 }
 
+
 nav {
   max-width: 960px;
   margin: 0;
@@ -408,8 +409,17 @@ font-weight: bolder;
 .brandcards{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;	
+  justify-content: space-evenly;
+  /* padding-left: 10%;
+  padding-right: 10%;	 */
 }
+
+.viewmorecontent{
+  /* margin-left: 10%;
+  margin-right: 10%; */
+}
+
+
 
 .brandsrow .brandcards img{
   height: 100px;
@@ -428,6 +438,8 @@ font-weight: bolder;
 .brandsrow {
   padding-top: 10px;
   padding-bottom: 10px;
+  /* margin-left: 10%;
+  margin-right: 10%; */
 }
 @media only screen and (max-width: 800px){
   .sec5{
@@ -976,6 +988,7 @@ hr {
     height: 60px;
     line-height: 60px;
   }
+  .pop{display: none;}
 }
 
 @media screen and (max-width: 569px) {
@@ -1015,6 +1028,7 @@ hr {
     height: 55px;
     line-height: 55px;
   }
+  
   
 }
 
@@ -1138,6 +1152,13 @@ a.animated-button.victoria-four:hover:after {
 
 .viewmorecontent{
   display: none;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.padd2{
+  margin-left: 10%;
+  margin-right: 10%
 }
 /* cd */
 /* cd *//* cd */
@@ -1246,6 +1267,33 @@ a.animated-button.victoria-four:hover:after {
   }
   }
 
+  @media screen and (max-width: 760px) {
+    #contact {
+        height: 1000px;
+    }
+  .section-header {
+    font-size: 65px;
+  }
+  .direct-contact-container, .form-horizontal {
+    float: none;
+    margin: 10px auto;
+  }  
+  .direct-contact-container {
+    margin-top: 60px;
+    max-width: 300px;
+  }    
+  .social-media-list li {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+  }
+  .social-media-list li:after {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+  }
+  .pop{display: none;}
+}
 /* our animation */
 /* @charset "UTF-8"; */
 /*!
