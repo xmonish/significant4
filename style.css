@@ -197,7 +197,7 @@ font-weight: bolder;
   @media only screen and (max-width: 600px) {
 	.content .logo img {
 		width: -moz-available;
-		padding: 20px;
+		padding: 18px;
 		height: 12em;
 	}
 	.heading p{
