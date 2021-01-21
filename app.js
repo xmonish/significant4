@@ -519,11 +519,11 @@ function myFunction() {
 
 function sendEmail() {
 	Email.send({
-	Host: "smtp.gmail.com",
-	Username : "<sender’s email address>",
-	Password : "<email password>",
+	Host: 'smtp.gmail.com',
+	Username : 'significentsport@gmail.com',
+	Password : 'Sport@1920',
 	To : 'monish@mail.com',
-	From : "<sender’s email address>",
+	From : 'significentsport@gmail.com',
 	Subject : "You've got an Email from SignificantSports Site",
 	Body : `Name: ${x} \n Email: ${y} \n ${z}`,
 	}).then(

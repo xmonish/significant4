@@ -19,7 +19,8 @@
   }
 
   #myVideo {
-	  background: url(./myimages/pexels-juan-salamanca-61143.jpg);
+    background: url(./myimages/pexels-juan-salamanca-61143.jpg);
+    /* background-color: black; */
 	  background-position: center;
 	  background-repeat: no-repeat;
 	  background-size: cover;
@@ -53,7 +54,8 @@
   width: auto;
 	margin-top: 130px;
 	padding: 0px;
-	filter:brightness(150%)
+  filter:brightness(140%)
+  /* filter:grayscale(100%) */
   }
   
   .heading {
@@ -68,7 +70,8 @@
 	  font-weight: lighter;
 	  font-style: normal;
     font-family: sans-serif;
-    color: rgb(255, 254, 254);
+    /* color: rgb(255, 254, 254); */
+    color: white;
 	  /* text-transform: uppercase; */
 	  font-family: 'Poppins', sans-serif;
 	  font-size: 3em;
@@ -82,7 +85,7 @@
   .arrow-down {
     width: 0;
     height: 0;
-    border-top: 35px solid #fff;
+    border-top: 35px solid #ff921d;
     border-right: 15px solid transparent;
 	  border-left: 15px solid transparent;
 	  animation: mymove 1.2s infinite;
@@ -270,7 +273,7 @@ font-weight: bolder;
 	  cursor: pointer;
   }
 
-  .section2{
+  .section2{ 
   }
 
   .section2content{
@@ -348,6 +351,12 @@ font-weight: bolder;
   width: 150px;
 	border-radius: 25%;
 
+}
+
+.no-crop img{
+  height: 180px;
+  width: 180px;
+  border-radius: 0%;
 }
 
 .sec3col p {
