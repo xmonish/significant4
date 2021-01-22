@@ -829,13 +829,13 @@ body {
 .send-button {
   margin-top: 15px;
   height: 34px;
-  width: 400px;
+  width: 340px;
   overflow: hidden;
   transition: all .2s ease-in-out;
 }
 
 .button {
-  width: 400px;
+  width: 340px;
   height: 34px;
   transition: all .2s ease-in-out;
 }
